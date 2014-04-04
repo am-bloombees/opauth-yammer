@@ -1,0 +1,22 @@
+{
+    "name": "opauth/yammer",
+    "description": "Yammer authentication strategy for Opauth",
+    "keywords": ["authentication", "auth", "yammer"],
+    "homepage": "http://opauth.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrej Griniuk",
+            "email": "andrej.griniuk@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "opauth/opauth": ">=0.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "."
+        }
+    }
+}
